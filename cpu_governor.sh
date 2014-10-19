@@ -16,7 +16,7 @@ function getAvailableGovernors(){
 function setGovernor() {
  #
  # @param governor
- # Revice el governor como argumento
+ # Receive governor string as param
  #
 	governor=$(getAvailableGovernors);
 	if [[ $governor == *$1* ]]; then
